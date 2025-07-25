@@ -21,7 +21,7 @@ def formate_data(account):
     return f"{account_name}, a {account_profession}, from {account_country}"
 
 def checking_answer(guess, account_follower_a, account_follower_b):
-    """ Takes the user guess and account followers and return the highest. """
+    """ Takes the user guess and account followers and return the highest.. """
     if account_follower_a > account_follower_b:
         return guess == "a"
     else:
